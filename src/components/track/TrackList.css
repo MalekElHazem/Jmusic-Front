@@ -1,0 +1,62 @@
+/* src/components/tracks/TrackList.css */
+
+
+.track-list-container {
+    padding: 20px;
+    width: 1200px;
+    height: 100vh;
+    margin-left: 255px;
+  }
+  
+  .track-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    max-height: 490px; /* Set the maximum height for the table container */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Add other styles as needed */
+  
+  
+  .track-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .track-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .track-list-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .track-list-container a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .track-list-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .track-list-container button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .track-list-container button:hover {
+    background-color: #212121;
+  }
+  

@@ -1,0 +1,100 @@
+.sidebar {
+    height: 88vh; /* Set the height to 100% of the viewport height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Make the sidebar fixed */
+    left: 0; /* Position the sidebar on the left side */
+    top: 0;
+    background-color: #272727; /* Set the background color */
+    overflow-x: hidden; /* Hide horizontal scroll */
+    padding-top: 20px; /* Add some padding on top */
+
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .sidebar-button {
+    color: #333; /* Button text color */
+    background-color: #f1f1f1; /* Button background color */
+    border: none; /* Remove border */
+    display: block; /* Make the button a block-level element */
+    width: 100%; /* Make the button fill the full width of the sidebar */
+    text-align: left; /* Align the text to the left */
+    padding: 12px 16px; /* Add some padding */
+    text-decoration: none; /* Remove underline from the button */
+    font-size: 16px; /* Set the font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    border-radius: 15px;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #68bdf1; /* Darken background color on hover */
+  }
+  
+  .sidebar-button:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
+    .sidebar-button.active {
+        background-color: #68bdf1; /* Set active button background color */
+        color: #fff; /* Set active button text color */
+    }   
+
+
+      .sidebar-button {
+    color: #333; /* Button text color */
+    background-color: #f1f1f1; /* Button background color */
+    border: none; /* Remove border */
+    display: block; /* Make the button a block-level element */
+    width: 100%; /* Make the button fill the full width of the sidebar */
+    text-align: left; /* Align the text to the left */
+    padding: 12px 16px; /* Add some padding */
+    text-decoration: none; /* Remove underline from the button */
+    font-size: 16px; /* Set the font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    border-radius: 15px;
+  }
+  
+.sidebar-button:hover {
+background-color: #68bdf1; /* Darken background color on hover */
+}
+
+.sidebar-button:focus {
+outline: none; /* Remove focus outline */
+}
+  
+.sidebar-button.active {
+    background-color: #68bdf1; /* Set active button background color */
+    color: #fff; /* Set active button text color */
+}  
+
+
+
+.sidebar-link {
+    color: #333; /* Button text color */
+    background-color: #f1f1f1; /* Button background color */
+    border: none; /* Remove border */
+    display: block; /* Make the button a block-level element */
+    width: 100%; /* Make the button fill the full width of the sidebar */
+    text-align: left; /* Align the text to the left */
+    padding: 12px 16px; /* Add some padding */
+    text-decoration: none; /* Remove underline from the button */
+    font-size: 16px; /* Set the font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    border-radius: 15px;
+}
+  
+.sidebar-link:hover {
+background-color: #f16868; /* Darken background color on hover */
+}
+  
+.sidebar-link:focus {
+outline: none; /* Remove focus outline */
+}
+  
+.sidebar-link.active {
+    background-color: #68bdf1; /* Set active button background color */
+    color: #fff; /* Set active button text color */
+}  

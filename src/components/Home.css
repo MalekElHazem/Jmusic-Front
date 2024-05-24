@@ -1,0 +1,11 @@
+/* Style for the home page content */
+.home-content {
+    padding: 20px;
+    margin-left: 400px; /* Leave space for the sidebar */
+    margin-top: 0; /* Ensure no top margin */
+    min-height: 100vh; /* Ensure the content covers the full viewport height */
+    box-sizing: border-box; /* Include padding in total width */
+    
+    
+  }
+  

@@ -1,0 +1,64 @@
+/* src/components/artists/artistList.css */
+
+/* src/components/artists/artistList.css */
+
+.artist-list-container {
+    padding: 20px;
+    width: 1200px;
+    height: 100vh;
+    margin-left: 255px;
+  }
+  
+  .artist-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    max-height: 490px; /* Set the maximum height for the table container */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+
+   /* Add other styles as needed */
+  
+  
+   .artist-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .artist-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .artist-list-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .artist-list-container a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .artist-list-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .artist-list-container button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .artist-list-container button:hover {
+    background-color: #212121;
+  }
+  
